@@ -1,0 +1,274 @@
+ID,Prev crop,PU?,Year,State,CRD,County,Location,Fld,Latitude,Longitude,Sandy?,Muck?,Soil texture,Soil assoc.,Manure,Irrig,Hybrid,Plt date,Ntiming,Nsource,Model,a,b,c,AONR,Opt. yld,R-sq,EONR
+NR-001,Soy,yes,2006,IN,WC,Tippecanoe,ACRE - 93,Fld 93,40.485245,-87.00806022,no,no,SiCL,Chalmers,no,no,P34A19,25-Apr,24-May,UAN,QP,133.1,8.93E-01,-2.71E-03,164.7,207,0.99,144
+NR-002,Soy,no,2006,IN,SE,Ripley,Back,,,,no,no,Unknown,Unknown,no,no,,,SD,,QP,30.1683,1.8817,-5.61E-03,167.7,188,,158
+NR-003,Soy,no,2006,IN,C,Hamilton,Becks A3,,,,no,no,SiL,"Crosby, Miami",no,no,,,SD,UAN,CR,-,-,-,-,-,,
+NR-004,Soy,no,2006,IN,C,Hamilton,Becks K,,,,no,no,SiCL,Brookston,no,no,,,SD,UAN,QP,131.6,0.9642,-3.03E-03,159.2,208,,141
+NR-005,Soy,no,2006,IN,SW,Gibson,Becks SW - Preplt,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,Preplt,NH3,QP,135.9,0.395,-9.00E-04,204,179,,157
+NR-006,Corn,no,2006,IN,SW,Gibson,Becks SW - Preplt,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,Preplt,NH3,QP,156.5,0.5769,-1.15E-03,204,226.3,,202
+NR-007,Soy,no,2006,IN,SW,Gibson,Becks SW - V3,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,133.8,0.8596,-3.25E-03,132.2,191,,115
+NR-008,Corn,no,2006,IN,SW,Gibson,Becks SW - V3,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,158,0.5327,-1.04E-03,204,223.4,,202
+NR-009,Soy,no,2006,IN,SW,Gibson,Becks SW - V6,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,132.2,1.096,-4.19E-03,130.7,204,,117
+NR-010,Corn,no,2006,IN,SW,Gibson,Becks SW - V6,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,154.2,0.6238,-1.49E-03,204,219.4,,172
+NR-011,Soy,no,2006,IN,SW,Vigo,Ceres Soln,,,,no,no,SiL,Iva,no,no,,,SD,,QP,9.7135,1.8059,-4.65E-03,194,185,,182
+NR-012,Soy,no,2006,IN,C,Grant,Devore,,,,no,no,Unknown,Unknown,no,no,,,SD,,QP,61.1346,0.9723,-2.31E-03,210.5,163,,186
+NR-013,Soy,yes,2006,IN,EC,Randolph,DPAC - N,N,40.24350198,-85.149858,no,no,"SiL, SiCL",Blount/Pewamo,no,no,P34A19,31-May,17-Jun,UAN,QP,41.8571,1.2197,-2.83E-03,200,172.6,,196
+NR-014,Soy,no,2006,IN,C,Hendricks,Edmundson,,,,no,no,L,Rensselaer,no,no,,,SD,UAN,QP,74.0694,1.4063,-3.90E-03,180.2,201,,166
+NR-015,Soy,yes,2006,IN,SC,Lawrence,Feldun,,,,no,no,SiL,"Muren, Bedford",no,no,,,SD,UAN,QP,75.7181,0.9568,-2.73E-03,175.5,160,,155
+NR-016,Corn,no,2006,IN,SW,KY,Folz,,,,no,no,SiL,Pembroke,no,no,,,SD,,QP,132.4,0.5372,-1.26E-03,204,189.6,,169
+NR-017,Soy,no,2006,IN,WC,White,Kretzmeier,,,,no,no,SiCL,Chalmers,no,no,,22-Apr,SD,UAN,NR,-,-,-,100,195,,
+NR-018,Soy,no,2006,IN,WC,White,Kretzmeier,,,,no,no,SiL,Toronto,no,no,,22-Apr,SD,UAN,NR,-,-,-,100,194,,
+NR-019,Soy,no,2006,IN,WC,White,Kretzmeier,,,,no,no,SiL,Wingate,no,no,,22-Apr,SD,UAN,NR,-,-,-,100,186,,
+NR-020,Soy,no,2006,IN,SE,Decatur,Kunz,,,,no,no,SiL,"Clermont, Avonburg, Rossmoyne",no,no,,,SD,UAN,QP,120.1,0.9417,-3.98E-03,118.3,176,,104
+NR-021,Soy,yes,2006,IN,NE,Whitley,NEPAC - L5,L5,41.11445726,-85.44242263,no,no,"SiL, L, SL","Blount, Mermill+Haskins, Boyer+Rawson",no,no,P34A19,27-Apr,3-Jun,UAN,QP,79.3822,0.9935,-2.10E-03,229,196.8,,210
+NR-022,Soy,yes,2006,IN,NE,Whitley,NEPAC - S6,S6,,,no,no,"L, CL","Glynwood, Morley",no,no,P34D72,24-Apr,SD,UAN,QP,41.961,1.4287,-3.49E-03,204.6,188,,189
+NR-023,Soy,no,2006,IN,WC,Clay,Nicoson,,,,no,no,SiL,Iva,no,no,,,SD,,QP,55.1299,1.4074,-4.00E-03,176,179,,162
+NR-024,Soy,no,2006,IN,EC,Henry,Pickering,12-Mar,,,no,no,SiL,Crosby,no,no,,,SD,UAN,QP,13.708,1.6855,-4.37E-03,193,176,1,180
+NR-025,Soy,no,2006,IN,EC,Henry,Pickering,12-Mar,,,no,no,SiCL,Cyclone,no,no,,,SD,UAN,QP,66.0113,1.3295,-3.47E-03,191.4,193.3,0.98,175
+NR-026,Soy,no,2006,IN,EC,Henry,Pickering,1-02Ws,,,no,no,SiL,Crosby,no,no,,,SD,UAN,QP,80.9508,1.0282,-2.65E-03,194,181,0.99,173
+NR-027,Soy,no,2006,IN,EC,Henry,Pickering,1-02Ws,,,no,no,SiCL,Cyclone,no,no,,,SD,UAN,QP,110.6,0.753,-1.48E-03,236,205.9,1,216
+NR-028,Soy,yes,2006,IN,NW,Porter,PPAC - A4,A4,41.45145997,-86.94347262,no,no,L,Sebewa,no,no,P34A19,27-Apr,31-May,UAN,QP,118.2,1.251,-4.27E-03,146.5,210,,133
+NR-029,Soy,yes,2006,IN,SE,Jennings,SEPAC - J33,J33,39.03260275,-85.53578496,no,no,SiL,Cobbsfork,no,no,P34A19,1-Jun,27-Jun,UAN,QP,43.3493,1.1599,-2.78E-03,208.9,164,,188
+NR-030,Soy,yes,2006,IN,SW,Knox,SWPAC - 23,Fld 23,38.74521394,-87.48169541,yes,no,"LfS, fSL, SiCL","Ade, Lyles, Petrolia",no,no,P34A19,10-May,5-Jun,UAN,QP,59.8132,0.5848,-1.35E-03,216.1,123,,175
+NR-031,Soy,no,2006,IN,SW,Gibson,Teel,,,,no,no,SiL,Ragsdale,no,no,,,SD,UAN,QP,114.4,1.0407,-2.68E-03,194.4,215,,173
+NR-032,Corn,no,2006,IN,SW,Gibson,Teel,,,,no,no,SiL,Ragsdale,no,no,,,SD,UAN,QP,69.6897,1.2126,-2.69E-03,204,205.1,0.99,205
+NR-033,Soy,yes,2006,IN,WC,Tippecanoe,TPAC - ME,ME,40.27772494,-86.8632853,no,no,"SiL, SiCL","Lauramie, Drummer, Toronto-Millbrook",no,no,P34A19,5-Jun,19-Jul,UAN,CR,128.7,0.4815,-3.35E-03,71.9,146,0.99,55
+NR-034,Soy,yes,2007,IN,WC,Tippecanoe,ACRE - 92,Fld 92,40.48428211,-87.00799584,no,no,SiCL,Chalmers,no,no,P34A20,7-May,6-Jun,UAN,QP,94.0988,1.3091,-5.05E-03,129.5,179,,119
+NR-035,Corn,yes,2007,IN,WC,Tippecanoe,ACRE - 94,Fld 94,40.48610997,-87.00803876,no,no,SiL,Raub,no,no,P34A20,7-May,6-Jun,UAN,QP,69.8943,1.1327,-3.34E-03,169.5,166,,153
+NR-036,Corn,no,2007,IN,C,Hamilton,Becks K - 30k,,,,no,no,SiCL,Brookston,no,no,,,SD,UAN,QP,100.5,1.1557,-3.22E-03,179.7,204,,162
+NR-037,Corn,no,2007,IN,C,Hamilton,Becks K - 36k,,,,no,no,SiCL,Brookston,no,no,,,SD,UAN,QP,81.57,1.8556,-5.66E-03,164,234,,154
+NR-038,Soy,no,2007,IN,SW,Gibson,Becks SW - Preplt,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,Preplt,NH3,PL,133.38,0.4802,,200,229.4,,
+NR-039,Corn,no,2007,IN,SW,Gibson,Becks SW - Preplt,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,Preplt,NH3,PL,75.44,0.6462,,200,204.7,,
+NR-040,Soy,no,2007,IN,SW,Gibson,Becks SW - V3,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,133.6,1.9952,-9.88E-03,100.9,234,,95
+NR-041,Corn,no,2007,IN,SW,Gibson,Becks SW - V3,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,85.1343,1.1778,-2.70E-03,218.3,213.7,,197
+NR-042,Corn,no,2007,IN,SW,Gibson,Becks SW - V3,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,99.872,1.229,-3.27E-03,187.7,215,,171
+NR-043,Soy,no,2007,IN,SW,Gibson,Becks SW - V6,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,QP,134.8,1.5504,-5.86E-03,132.4,237,,123
+NR-044,Corn,no,2007,IN,SW,Gibson,Becks SW - V6,,,,no,no,SiL,Uniontown / Ragsdale,no,no,,,SD,UAN,Q,81.094,1.059,-1.80E-03,265,235.3,,263
+NR-045,Corn,yes,2007,IN,EC,Randolph,DPAC - M1,M1,40.24841543,-85.14998674,no,no,"SiL, SiCL",Blount/Pewamo,no,no,P34A20,8-May,6-Jun,UAN,QP,43.2686,0.6841,-1.66E-03,206.1,114,,172
+NR-046,Soy,yes,2007,IN,EC,Randolph,DPAC - M2,M2,40.24589324,-85.14994383,no,no,"SiL, SiCL",Blount/Pewamo,no,no,P34A20,8-May,6-Jun,UAN,QP,60.7629,1.0563,-3.30E-03,160,145,,143
+NR-047,Soy,no,2007,IN,C,Hendricks,Edmundson,,,,no,no,"SiL, SiCL","Crosby, Brookston",no,no,,,SD,UAN,QP,140.2,0.1731,-3.40E-04,251.8,162,,89
+NR-048,Soy,no,2007,IN,WC,Benton,Kretz,,,,no,no,"SiCL, L","Chalmers, Conover+Selma",no,no,P34A20,21-Apr,SD,UAN,PL,171.9,0.1578,,220,206.6,1,
+NR-049,Soy,yes,2007,IN,NE,Whitley,NEPAC - L3,L3,41.11573437,-85.44235826,no,no,"L, SL","Haskins, Merrill, Rawson",no,no,P34A20,8-May,30-May,UAN,QP,115.2,0.9408,-2.31E-03,203.5,211,,179
+NR-050,Corn,yes,2007,IN,NE,Whitley,NEPAC - L4,L4,41.11431176,-85.4486239,no,no,"SL, L","Rawson, Haskins+Glynwood",no,no,P34A20,8-May,30-May,UAN,QP,41.1273,1.3168,-2.98E-03,221.2,187,,202
+NR-051,Corn,no,2007,IN,EC,Henry,Pickering,1-02Ws,,,no,no,SiL,Crosby,no,no,,,SD,UAN,QP,85.7245,0.8432,-2.18E-03,193,167,0.99,168
+NR-052,Corn,no,2007,IN,EC,Henry,Pickering,1-02Ws,,,no,no,SiCL,Cyclone,no,no,,,SD,UAN,QP,86.2858,1.1196,-3.19E-03,176,185,1,158
+NR-053,Corn,no,2007,IN,EC,Henry,Pickering,12-Mar,,,no,no,"SiCl, SiL","Cyclone, Crosby",no,no,,,SD,UAN,QP,67.0269,1.1137,-3.59E-03,155,153,0.88,139
+NR-054,Corn,yes,2007,IN,NW,Porter,PPAC - B4,B4,41.45120265,-86.94104791,no,no,L,Sebewa,no,no,P34A20,3-May,30-May,UAN,QP,65.8936,1.1284,-2.55E-03,221.5,191,,199
+NR-055,Soy,yes,2007,IN,NW,Porter,PPAC - C4east,C4,41.45141172,-86.93883777,no,no,L,Sebewa,no,no,P34A20,3-May,30-May,UAN,QP,104,0.6525,-1.94E-03,168.3,159,,139
+NR-056,Soy,yes,2007,IN,NW,Porter,PPAC - C4west,C4,41.45141172,-86.93883777,no,no,L,Sebewa,no,no,P34A20,3-May,30-May,UAN,QP,113.6,1.1298,-3.96E-03,142.7,194,,128
+NR-057,Soy,yes,2007,IN,SE,Jennings,SEPAC - G5,G5,39.04346949,-85.52707314,no,no,SiL,"Avonburg, Naab, Ryker-Muscatatuck ",no,no,P34A20,30-Apr,25-May,UAN,QP,112.6,0.9181,-3.24E-03,141.6,178,,124
+NR-058,Corn,yes,2007,IN,SE,Jennings,SEPAC - H3,H3,39.04093629,-85.52357554,no,no,SiL,"Cincinnati-Nabb, Parke, Cobbsfork",no,no,P34A20,1-May,25-May,UAN,QP,53.9851,1.1829,-4.12E-03,143.4,139,,130
+NR-059,Soy,yes,2007,IN,SW,Knox,SWPAC - 20,Fld 20,38.74849405,-87.48193145,yes,no,"LfS, fSL","Ade, Lyles",no,no,P34A20,27-Apr,22-May,UAN,PL,64.551,0.4614,,218,165,0.95,
+NR-060,Soy,yes,2007,IN,WC,Tippecanoe,TPAC - MS5,MS5,40.26826214,-86.87759757,no,no,"SiCL, SiL","Throckmorton, Toronto-Millbrook, Drummer",no,no,P34A20,4-May,5-Jun,UAN,QP,128.6,1.0215,-4.41E-03,115.9,188,,103
+NR-061,Soy,yes,2008,IN,WC,Tippecanoe,ACRE - 93,Fld 93,40.485245,-87.00806022,no,no,SiCL,Chalmers,no,no,P34A20,1-May,12-Jun,UAN,QP,86.626,1.6104,-4.33E-03,186,236,,173
+NR-062,Corn,yes,2008,IN,WC,Tippecanoe,ACRE - 94,Fld 94,40.48610997,-87.00803876,no,no,SiL,Raub,no,no,P34A20,1-May,12-Jun,UAN,QP,26.1544,1.4666,-2.80E-03,262,218,,242
+NR-063,Soy,no,2008,IN,EC,Blackford,Aulbach,,,,no,no,"SiL, SiCL","Blount, Pewamo",no,no,Garst 8384,23-Apr,SD,UAN,QP,66.2179,1.28,-2.54E-03,251.5,227.2,,230
+NR-064,Corn,no,2008,IN,C,Hamilton,Becks K,,,,no,no,SiCL,Brookston,no,no,,,SD,UAN,QP,47.4714,1.5381,-3.23E-03,238.4,230.8,,221
+NR-065,Corn,no,2008,IN,NC,Fulton,Berry,,,,yes,no,LS,Ormas,no,yes,,,SD,NH3,QP,72.86,1.244,-2.72E-03,229,215.2,0.96,200
+NR-066,Soy,no,2008,IN,NW,Pulaski,Brown,,,,yes,no,"S, LS","Morocco, Brems, Maumee",no,no,Heritage 4646 VT3,26-Apr,SD,NH3,QP,-20.3187,2.3754,-7.78E-03,152.6,160.9,,145
+NR-067,na,no,2008,IN,SW,Sullivan,Chowning,,,,no,no,SiL,Wakeland,no,no,P33N58+P33T57,30-Apr,SD,NH3,CR,-,-,-,-,-,,
+NR-068,Corn,no,2008,IN,NC,Fulton,Clauson,,,,yes,no,"SL, LS","Kosciusko, Ormas (irrig)",no,yes,P33F88,19-May,SD,NH3,QP,77.96,0.9725,-1.56E-03,264,229.3,,264
+NR-069,Corn,yes,2008,IN,EC,Randolph,DPAC - M1,M1,40.24841543,-85.14998674,no,no,"SiL, SiCL","Blount, Pewamo",no,no,P34A20,29-May,20-Jun,UAN,QP,18.4935,1.017,-1.91E-03,266,153.7,,237
+NR-070,Soy,yes,2008,IN,EC,Randolph,DPAC - P,P,40.24032442,-85.14972925,no,no,"SiL, SiCL","Blount, Pewamo",no,no,P34A20,29-May,20-Jun,UAN,QP,68.2815,1.2713,-3.60E-03,177,181,,161
+NR-071,Soy,no,2008,IN,SW,Gibson,Jochim - DC soy,,,,no,no,Unknown,Unknown,no,no,P33T56,,SD,UAN,QP,90.935,1.004,-2.20E-03,228.2,205.5,,203
+NR-072,Soy,no,2008,IN,C,Clinton,Kberg,,,,no,no,Unknown,Unknown,no,no,DK63-42,23-Apr,SD,UAN,QP,55.5482,2.2584,-5.72E-03,197.6,278,,188
+NR-073,Soy,no,2008,OH,NW OH,OH,Kberg,,,,no,no,Unknown,Unknown,no,no,,10-May,SD,NH3,PL,125.04,0.1675,,235,164.4,0.94,
+NR-074,Soy,no,2008,IN,NW,Lake,Kleine,,,,no,no,"SiCL, SiL",Pewamo/Elliott,no,no,,20-May,SD,NH3,QP,79.9194,2.1678,-7.23E-03,149.8,242,,142
+NR-075,Soy,no,2008,IN,NE,LaGrange,Lords Seeds,,,,yes,no,LS,Boyer (irrig),no,yes,7987wx,20-May,SD,UAN,QP,-48.2485,2.4755,-5.99E-03,206.7,208,,197
+NR-076,Soy,no,2008,IN,C,Clinton,Meador - Garst 83C55,Sipes3,,,no,no,SiL,"Fincastle, Crosby",no,no,Garst 83C55,,SD,NH3,QP,150.2,0.4283,-6.30E-04,224,215,,251
+NR-077,Soy,no,2008,IN,C,Clinton,Meador - P33F88,Sipes3,,,no,no,SiL,"Fincastle, Crosby",no,no,P33F88,,SD,NH3,QP,88.8565,1.0154,-1.83E-03,224,224.5,,247
+NR-078,Corn,yes,2008,IN,NE,Whitley,NEPAC - L4,L4,41.11431176,-85.4486239,no,no,"SL, L","Rawson, Haskins+Glynwood",no,no,P34A20,1-May,9-Jun,UAN,QP,0.9652,1.4153,-3.47E-03,204,145,,188
+NR-079,Soy,yes,2008,IN,NE,Whitley,NEPAC - L5,L5,41.11445726,-85.44242263,no,no,"SiL, L, SL","Blount, Mermill+Haskins, Boyer+Rawson",no,no,P34A20,1-May,9-Jun,UAN,QP,83.9616,0.6365,-1.59E-03,200,148,,165
+NR-080,Soy,no,2008,IN,WC,Tippecanoe,Phillips,,,,no,no,SiL,Mellot/Throckmorton,no,no,Specialty 6991,30-May,SD,UAN,CR,-,-,-,-,-,,
+NR-081,Soy,no,2008,IN,EC,Henry,Pickering,20,,,no,no,SiL,Celina,no,no,,,SD,UAN,QP,92.2457,0.8957,-1.79E-03,250.8,204.6,,219
+NR-082,Soy,no,2008,IN,EC,Henry,Pickering,20,,,no,no,SiCL,Cyclone,no,no,,,SD,UAN,QP,65.9737,1.4367,-3.59E-03,200,210,,184
+NR-083,Soy,yes,2008,IN,NW,Porter,PPAC - A4,A4,41.45145997,-86.94347262,no,no,L,Sebewa,no,no,P34A20,5-May,2-Jun,UAN,QP,100.3,1.3349,-3.40E-03,197,231,,180
+NR-084,Corn,yes,2008,IN,NW,Porter,PPAC - B4,B4,41.45120265,-86.94104791,no,no,L,Sebewa,no,no,P34A20,5-May,2-Jun,UAN,QP,44.752,1.4636,-3.11E-03,235,217,,217
+NR-085,Soy,no,2008,IN,NW,Benton,Schurr-Peacock,,,,no,no,SiCL,Brookston,no,no,PR561,29-Apr,SD,NH3,QP,14.5685,3.1153,-1.21E-02,128,215,,124
+NR-086,Soy,yes,2008,IN,SE,Jennings,SEPAC - G8,G8,39.03978632,-85.53082824,no,no,SiL,"Nabb, Oldenburg, Ryker-Muscatuck",no,no,P34A20,23-Apr,10-Jun,UAN,QP,44.8293,1.3642,-3.55E-03,192,176,,176
+NR-087,Corn,yes,2008,IN,SE,Jennings,SEPAC - H3,H3,39.04093629,-85.52357554,no,no,SiL,"Cincinnati-Nabb, Parke, Cobbsfork",no,no,P34A20,23-Apr,9-Jun,UAN,QP,7.2377,1.5263,-4.53E-03,169,136,,156
+NR-088,Soy,yes,2008,IN,SW,Knox,SWPAC - 23,Fld 23,38.74521394,-87.48169541,yes,no,"LfS, fSL, SiCL","Ade, Lyles, Petrolia",no,no,P34A20,1-May,SD,UAN,QP,52.186,0.9136,-1.81E-03,252,167,,221
+NR-089,Soy,yes,2008,IN,WC,Tippecanoe,TPAC - ME,ME,40.27772494,-86.8632853,no,no,"SiL, SiCL","Lauramie, Drummer, Toronto-Millbrook",no,no,P34A20,6-May,20-Jun,UAN,QP,89.6576,1.5566,-4.45E-03,175,226,,162
+NR-090,Soy,no,2008,IN,SW,Dubois,Whitsitt,Dow 2,,,no,no,SiL,"Bonnie, Stendal",yes,no,P33N58,25-May,SD,UAN,QP,137.3,1.8655,-1.49E-02,62.5,195.6,0.83,59
+NR-091,Soy,yes,2009,IN,WC,Tippecanoe,ACRE - 92,Fld 92,40.48428211,-87.00799584,no,no,SiCL,Chalmers,no,no,P33F88,12-May,9-Jun,UAN,QP,58.9529,1.8077,-4.96E-03,182.2,223.6,,171
+NR-092,Corn,yes,2009,IN,WC,Tippecanoe,ACRE - 94,Fld 94,40.48610997,-87.00803876,no,no,SiL,Raub,no,no,P33F88,12-May,9-Jun,UAN,QP,-1.5572,1.5791,-3.24E-03,243.8,191,,226
+NR-093,Soy,no,2009,IN,EC,Blackford,Aulbach,Acrs Rd,,,no,no,SiL,Blount,no,no,Garst 84U96 3000GT,21-May,SD,UAN,QP,80.6358,0.9239,-1.94E-03,238,190.6,,209
+NR-094,Soy,no,2009,IN,EC,Blackford,Aulbach,Acrs Rd,,,no,no,SiCL,Pewamo,no,no,Garst 84U96 3000GT,21-May,SD,UAN,QP,98.3742,0.8114,-1.66E-03,245,197.8,,211
+NR-095,Corn,no,2009,IN,SW,Gibson,Becks 5608VT3,,,,no,no,SiL,Ragsdale,no,no,5608VT3,25-Apr,SD,UAN,QP,78.3482,1.2715,-2.93E-03,217,216,,198
+NR-096,Soy,no,2009,IN,SW,Gibson,Becks 5608VT3,,,,no,no,SiL,Ragsdale,no,no,5608VT3,25-Apr,SD,UAN,QP,111,0.8868,-1.78E-03,249.8,221.7,,218
+NR-097,Corn,no,2009,IN,SW,Gibson,Becks 6733HXR,,,,no,no,SiL,Ragsdale,no,no,6733HXR,25-Apr,SD,UAN,QP,78.5316,1.111,-2.07E-03,250,226.9,,241
+NR-098,Soy,no,2009,IN,SW,Gibson,Becks 6733HXR,,,,no,no,SiL,Ragsdale,no,no,6733HXR,25-Apr,SD,UAN,QP,114.1,1.122,-2.76E-03,203.1,228,,183
+NR-099,Corn,no,2009,IN,WC,Tippecanoe,Booher,,,,no,no,"SiCL, SiL",Drummer/Toronto-Millbrook,no,no,DK61-19,11-May,SD,UAN,QP,152.3,0.709,-1.34E-03,265.2,246.3,,223
+NR-100,Soy,no,2009,IN,WC,Tippecanoe,Booher,DE,,,no,no,"SiL, CL, SiCL",Crosby-Miami/Starks-Fincastle/Toronto-Millbrook,no,no,DK61-19,22-May,SD,UAN,QP,175.9,0.4376,-8.00E-04,261,235.6,,203
+NR-101,Corn,yes,2009,IN,EC,Randolph,DPAC - M1-Blount,M1,40.24841543,-85.14998674,no,no,SiL,Blount,no,no,P33F88,26-May,15-Jun,UAN,PL,68.923,0.3125,,286,158.3,0.98,
+NR-102,Corn,yes,2009,IN,EC,Randolph,DPAC - M1-Pewamo,M1,40.24841543,-85.14998674,no,no,SiCL,Pewamo,no,no,P33F88,26-May,15-Jun,UAN,PL,75.886,0.3475,,286,175.3,0.99,
+NR-103,Soy,yes,2009,IN,EC,Randolph,DPAC - M2-Blount,M2,40.24589324,-85.14994383,no,no,SiL,Blount,no,no,P33F88,26-May,15-Jun,UAN,QP,76.4393,0.7387,-1.85E-03,200,150.3,,169
+NR-104,Soy,yes,2009,IN,EC,Randolph,DPAC - M2-Pewamo,M2,40.24589324,-85.14994383,no,no,SiCL,Pewamo,no,no,P33F88,26-May,15-Jun,UAN,QP,62.8473,1.161,-2.96E-03,196.1,176.7,,177
+NR-105,Wht silage,yes,2009,IN,SC,Lawrence,Feldun,,,,no,no,SiL,Muren,no,no,P34F94,2-Jun,SD,UAN,QP,37.1454,1.7412,-4.87E-03,178.8,192.8,,167
+NR-106,Soy,no,2009,IN,C,Carroll,Meador,Le2,,,no,no,SiL,Camden,no,no,DK63-42,12-May,SD,NH3,QP,176.7,0.5282,-1.26E-03,209.8,232.1,,165
+NR-107,Soy,no,2009,IN,C,Carroll,Meador,Le2,,,no,no,SiL,Fincastle-Starks,no,no,DK63-42,12-May,SD,NH3,QP,118.6,1.2684,-3.56E-03,178.1,231.6,,162
+NR-108,Soy,no,2009,IN,C,Carroll,Meador,Le2,,,no,no,SiL,Rockfield-Williamstown,no,no,DK63-42,12-May,SD,NH3,QP,151.3,0.6766,-1.57E-03,215.5,224.2,,180
+NR-109,Soy,yes,2009,IN,NE,Whitley,NEPAC - L3,L3,41.11573437,-85.44235826,no,no,"L, SL","Haskins, Merrill, Rawson",no,no,P34F97,21-May,9-Jun,UAN,QP,58.7213,1.4649,-3.64E-03,201.3,206.2,,186
+NR-110,Corn,yes,2009,IN,NE,Whitley,NEPAC - L4,L4,41.11431176,-85.4486239,no,no,"SL, L","Rawson, Haskins+Glynwood",no,no,P34F97,22-May,9-Jun,UAN,QP,-1.5592,1.461,-2.86E-03,255.3,185,,236
+NR-111,Soy,no,2009,IN,EC,Henry,Pickering,402-E,,,no,no,SiL,Celina,no,no,Crow's 4826 VT3,22-May,SD,UAN,QP,76.5004,1.2469,-2.78E-03,224,216,0.91,204
+NR-112,Soy,no,2009,IN,EC,Henry,Pickering,402-E,,,no,no,SiCl,Cyclone,no,no,Crow's 4826 VT3,22-May,SD,UAN,QP,106.6,0.7583,-1.23E-03,285,222.8,1,263
+NR-113,Corn,yes,2009,IN,NW,Porter,PPAC - B4,B4,41.45120265,-86.94104791,no,no,L,Sebewa,no,no,P34F97,5-May,28-May,UAN,QP,22.1259,1.2712,-2.44E-03,260.2,187.5,,237
+NR-114,Soy,yes,2009,IN,NW,Porter,PPAC - C4,C4,41.45141172,-86.93883777,no,no,L,Sebewa,no,no,P34F97,5-May,28-May,UAN,QP,62.3576,1.2607,-3.72E-03,169.6,169.3,,154
+NR-115,Soy,yes,2009,IN,NW,Porter,PPAC - SandyLoam,,,,yes,no,SL,"Hanna, Tracy",no,no,P34F97,,SD,UAN,QP,44.0202,1.0881,-2.81E-03,193.8,149.5,,174
+NR-116,Soy,no,2009,IN,NW,Benton,Schurr-Peacock,,,,no,no,SiCl,Brookston,no,no,Avg of 4,,SD,NH3,QP,95.512,1.3917,-4.80E-03,145,196.4,,133
+NR-117,Soy,yes,2009,IN,SE,Jennings,SEPAC - G5,G5,39.04346949,-85.52707314,no,no,SiL,"Avonburg, Naab, Ryker-Muscatatuck ",no,no,P33F88,12-May,1-Jun,UAN,QP,123.2,0.7883,-2.61E-03,151.3,182.8,,130
+NR-118,Corn,yes,2009,IN,SE,Jennings,SEPAC - H3,H3,39.04093629,-85.52357554,no,no,SiL,"Cincinnati-Nabb, Parke, Cobbsfork",no,no,P33F88,21-May,1-Jun,UAN,QP,11.1217,1.2135,-2.58E-03,234.8,153.6,,213
+NR-119,Soy,yes,2009,IN,SW,Knox,SWPAC - 18,Fld 18,38.74881201,-87.48452783,yes,no,"LfS, fSL","Ade, Lyles",no,no,P33F88,18-Apr,23-May,UAN,QP,41.4784,1.0964,-2.22E-03,246.7,177,,222
+NR-120,Soy,yes,2009,IN,WC,Tippecanoe,TPAC - MS5,MS5,40.26826214,-86.87759757,no,no,"SiCL, SiL","Throckmorton, Toronto-Millbrook, Drummer",no,no,P33F88,24-May,24-Jun,UAN,QP,89.6036,1.6973,-5.70E-03,149,216.1,,139
+NR-121,Soy,yes,2010,IN,WC,Tippecanoe,ACRE - 93,Fld 93,40.485245,-87.00806022,no,no,SiCL,Chalmers,no,no,P0916XR,21-Apr,4-Jun,UAN,QP,63.4283,1.6667,-4.48E-03,186.1,218.5,,173
+NR-122,Corn,yes,2010,IN,WC,Tippecanoe,ACRE - 94,Fld 94,40.48610997,-87.00803876,no,no,SiL,Raub,no,no,P0916XR,21-Apr,4-Jun,UAN,QP,4.768,1.3487,-2.14E-03,276,213.8,,289
+NR-123,Soy,no,2010,IN,EC,Blackford,Aulbach,,,,no,no,"SiL, SiCL","Blount, Pewamo",no,no,Garst 84U96 3000GT,19-Apr,SD,UAN,QP,-0.0329,1.3509,-2.52E-03,268.5,181.3,,246
+NR-124,Soy,no,2010,IN,C,Hamilton,Becks,,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 5442VT3,16-Apr,SD,UAN,QP,98.5622,1.2907,-3.07E-03,210.1,234.1,,192
+NR-125,Corn,no,2010,IN,C,Hamilton,Becks,,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 5442VT3,16-Apr,SD,UAN,PL,95.98,0.6321,,250,254,0.99,
+NR-126,Soy,no,2010,IN,SW,Gibson,Becks-SW,,,,no,no,SiL,Ragsdale,no,no,Two,14-Apr,SD,UAN,QP,125.4,1.13,-3.37E-03,167.5,220.4,,151
+NR-127,Corn,no,2010,IN,SW,Gibson,Becks-SW,,,,no,no,SiL,Ragsdale,no,no,Two,14-Apr,SD,UAN,QP,107.2,1.3758,-4.00E-03,172.2,225.6,,158
+NR-128,Soy,no,2010,IN,NE,Adams,Beer-King,,,,no,no,"SiL, SiCL",Blount/Pewamo,no,no,Brodbeck 30HXR13,20-Apr,SD,UAN,QP,60.6549,1.3006,-3.19E-03,203.9,193.2,,186
+NR-129,Soy,no,2010,IN,NW,Pulaski,Brown,,,,yes,no,"S,  LS","Morocco, Brems, Maumee",no,no,Heritage 4602 & 8585,27-Apr,SD,NH3,QP,10.4413,1.818,-5.04E-03,180.3,174.3,,169
+NR-130,Corn,no,2010,IN,NC,St. Joseph,Ehninger-King,,,,no,no,L,Ockley,no,no,Becks 5135 HXR,,SD,UAN,QP,36.5683,1.3394,-2.91E-03,229.9,190.6,,211
+NR-131,Soy,yes,2010,IN,SC,Lawrence,Feldun,,,,no,no,SiL,"Muren, Bedford",no,no,P34F97,19-Apr,SD,UAN,QP,48.0718,1.2128,-3.24E-03,187.4,161.7,,170
+NR-132,Corn,no,2010,IN,NC,St. Joseph,Leininger-Sutton,,,,yes,no,"LS, SL","Oshtemo LS, Tracy SL",no,no,DK61-21,5-May,SD,UAN,QP,138.7,0.2892,-4.90E-04,268,181,,181
+NR-133,Soy,no,2010,IN,NC,Marshall,Lemler,,,,no,no,L,"Crosier, Rensselaer, and Whitaker",no,no,Becks 6733 HXR,5-May,SD,NH3,QP,80.8201,0.9319,-2.29E-03,203.4,175.6,,179
+NR-134,Soy,no,2010,IN,NC,Elkhart,Martin-King,,,,no,no,SL,Unknown,no,no,Brodbeck 8910,19-Apr,SD,UAN,QP,27.4597,1.8348,-5.63E-03,162.8,176.8,,153
+NR-135,Soy,no,2010,IN,C,Clinton,Meador,Sipes3,,,no,no,SiL,"Fincastle, Crosby/Xenia",no,no,DK 60-51,20-Apr,SD,NH3,QP,104.7,0.8347,-1.39E-03,260,228,,260
+NR-136,Soy,no,2010,IN,C,Grant,Middlesworth-King,,,,no,no,"SiL, SiCL",Blount/Pewamo/Glynwood,no,no,Brodbeck 30SXVT308,15-Apr,SD,NH3,QP,59.5743,1.0428,-1.68E-03,270,218.7,,277
+NR-137,Corn,yes,2010,IN,NE,Whitley,NEPAC - L4,L4,41.11431176,-85.4486239,no,no,"SL, L","Rawson, Haskins+Glynwood",no,no,P0916XR,7-Jun,30-Jun,UAN,QP,15.5441,1.1377,-2.86E-03,198.9,128.7,,179
+NR-138,Soy,yes,2010,IN,NE,Whitley,NEPAC - L5,L5,41.11445726,-85.44242263,no,no,"SiL, L, SL","Blount, Mermill+Haskins, Boyer+Rawson",no,no,P0916XR,7-Jun,29-Jun,UAN,QP,91.1225,0.785,-2.61E-03,150.2,150.1,,129
+NR-139,Soy,no,2010,IN,EC,Henry,Pickering,20-110,,,no,no,"SiL, SiCL","Crosby, Cyclone",yes,no,Crow's 213-32VT3,21-Apr,SD,UAN,PL,100.15,0.6636,,149,199,0.96,149
+NR-140,Soy,yes,2010,IN,NW,Porter,PPAC - A4,A4,41.45145997,-86.94347262,no,no,L,Sebewa,no,no,P0916XR,28-Apr,7-Jun,UAN,QP,65.3565,1.6669,-4.03E-03,207,237.9,,193
+NR-141,Corn,yes,2010,IN,NW,Porter,PPAC - B4,B4,41.45120265,-86.94104791,no,no,L,Sebewa,no,no,P0916XR,28-Apr,7-Jun,UAN,QP,-17.1011,1.898,-3.64E-03,260.9,230.5,,245
+NR-142,Soy,no,2010,IN,NW,Benton,Schurr-Peacock,,,,no,no,SiCL,Brookston,no,no,Multiple,22-Apr,SD,NH3,PL,68.77,0.6691,,207,207.3,0.96,
+NR-143,Soy,yes,2010,IN,SE,Jennings,SEPAC - G8,G8,39.03978632,-85.53082824,no,no,SiL,"Nabb, Oldenburg, Ryker-Muscatuck",no,no,LG2620,15-Apr,24-May,UAN,QP,75.8587,1.1502,-2.12E-03,225,227.5,,225
+NR-144,Corn,yes,2010,IN,SE,Jennings,SEPAC - H3,H3,39.04093629,-85.52357554,no,no,SiL,"Cincinnati-Nabb, Parke, Cobbsfork",no,no,LG2620,15-Apr,24-May,UAN,QP,-73.6514,1.9023,-3.26E-03,280,203.5,,275
+NR-145,Corn,no,2010,IN,C,Madison,Shuter,,,,no,no,"SiL, SiCL","Brookston, Crosby",no,no,Beck’s 5454HXR,23-Apr,SD,NH3,QP,33.155,1.1325,-2.09E-03,271.2,186.7,,244
+NR-146,Soy,no,2010,IN,C,Madison,Shuter,,,,no,no,"SiL, SiCL","Brookston, Crosby",no,no,Beck’s 5435HXR,20-Apr,SD,NH3,QP,75.3357,0.9673,-1.50E-03,245,222.1,,285
+NR-147,Soy,no,2010,IN,C,Johnson,Smith,,,,no,no,CL,Sloan,no,no,Stewarts 7T630,8-May,SD,NH3,QP,98.4981,0.7996,-1.44E-03,251,208.5,,239
+NR-148,Soy,yes,2010,IN,SW,Knox,SWPAC - 20,Fld 20,38.74849405,-87.48193145,yes,no,"LfS, fSL","Ade, Lyles",no,no,LG2620,19-Apr,20-May,UAN,QP,15.4087,2.8042,-9.36E-03,149.8,225.4,,144
+NR-149,Soy,yes,2010,IN,WC,Tippecanoe,TPAC - ME,ME,40.27772494,-86.8632853,no,no,"SiL, SiCL","Lauramie, Drummer, Toronto-Millbrook",no,no,P0916XR,30-Apr,7-Jun,UAN,CR,-,-,-,-,-,,
+NR-150,Soy,no,2010,IN,C,Hendricks,Truax,,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 6733 HXR,19-Apr,SD,UAN,QP,79.006,0.9809,-2.19E-03,224,188.9,,198
+NR-151,Soy,no,2010,IN,EC,Henry,Wenning,,,,no,no,"SiL, SiCL","Celina, Cyclone",no,no,Crows 209-77VT3,17-Apr,SD,NH3,QP,52.2492,1.333,-2.57E-03,259.6,225.3,,238
+NR-152,Soy,no,2010,IN,NC,St. Joseph,Whitmer,,,,no,no,SL,Oshtemo,no,no,Sunstar 5309,30-Apr,SD,UAN,NR,-,-,-,116,153,,
+NR-153,Corn,no,2010,IN,NC,Cass,Woodhouse-King,,,,no,no,L,"Crosier, Rensselaer",no,no,Brodbeck 30HXR13,,Preplt,NH3,QP,23.8801,0.9625,-1.38E-03,317,190,0.99,308
+NR-154,Soy,yes,2011,IN,WC,Tippecanoe,ACRE - 92,Fld 92,40.48428211,-87.00799584,no,no,SiCL,Chalmers,no,no,P0916XR,11-May,7-Jun,UAN,QP,55.0976,1.4725,-4.12E-03,178.6,186.6,,165
+NR-155,Soy,no,2011,IN,EC,Blackford,Aulbach,E 450S,,,no,no,"SiCL, CL, SiCL","Blount, Glynwood, Pewamo",no,no,,2-Jun,SD,UAN,PL,158.88,0.0948,,270,184.5,0.98,
+NR-156,Corn,no,2011,IN,C,Hamilton,Becks,A6,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 5442VT3,11-May,SD,UAN,QP,80.15,0.5554,-9.20E-04,250,161.5,,241
+NR-157,Soy,no,2011,IN,C,Hamilton,Becks,K,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 5442VT3,11-May,SD,UAN,QP,61.3492,0.8335,-1.57E-03,225,169.4,,230
+NR-158,Soy,no,2011,IN,SW,Gibson,Becks - 5422VT3,,,,no,no,SiL,Ragsdale,no,no,Becks 5442VT3,12-May,SD,UAN,QP,92.0843,1.3709,-3.48E-03,196.8,227,,181
+NR-159,Corn,no,2011,IN,SW,Gibson,Becks - 5422VT3,,,,no,no,SiL,Ragsdale,no,no,Becks 5442VT3,12-May,SD,UAN,QP,85.7727,0.9047,-1.67E-03,250,207.6,,237
+NR-160,Soy,no,2011,IN,SW,Gibson,Becks - 6377HXR,,,,no,no,SiL,Ragsdale,no,no,Becks 6377 HXR,12-May,SD,UAN,QP,81.7069,1.437,-3.78E-03,190.3,218.4,,175
+NR-161,Corn,no,2011,IN,SW,Gibson,Becks - 6377HXR,,,,no,no,SiL,Ragsdale,no,no,Becks 6377 HXR,12-May,SD,UAN,QP,62.3819,1.0377,-2.12E-03,244.6,189.3,,218
+NR-162,Soy,yes,2011,IN,EC,Randolph,DPAC - M2,M2,40.24589324,-85.14994383,no,no,"SiL, SiCL",Blount/Pewamo,no,no,P35K04,3-Jun,17-Jun,UAN,QP,-8.3565,2.2936,-7.15E-03,160.3,175.5,,153
+NR-163,Soy,no,2011,IN,NW,Jasper,Kingma,Marks80,,,yes,no,LS,Watseka-Maumee,no,no,DK61-06 & 62-97,11-May,SD,NH3,QP,148.8,0.4325,-8.60E-04,251.4,203.2,,186
+NR-164,Soy,no,2011,IN,NC,Marshall,Lemler,,,,no,no,L,"Brookston, Crosier",no,no,,20-May,SD,NH3,QP,71.4714,1.4118,-3.95E-03,178.8,197.7,,165
+NR-165,Soy,no,2011,IN,EC,Henry,Pickering,1-02Wn,,,no,no,"SiL, SiCL, SiL",Celina/Cyclone/Miami,yes,no,P0891XR & P1184R,25-May,SD,UAN,QP,166.5,0.3811,-1.27E-03,149.7,195,,106
+NR-166,Soy,yes,2011,IN,NW,Porter,PPAC-C4-DOP,C4,41.45141172,-86.93883777,no,no,L,Sebewa,no,no,P0916XR,19-May,20-May,UAN,QP,56.3387,1.1261,-1.96E-03,223,210,,259
+NR-167,Soy,yes,2011,IN,NW,Porter,PPAC-C4-V6,C4,41.45141172,-86.93883777,no,no,L,Sebewa,no,no,P0916XR,19-May,22-Jun,UAN,QP,40.2682,1.8196,-4.70E-03,193.6,216.4,,182
+NR-168,Soy,yes,2011,IN,NW,Porter,PPAC-DowExpt,,,,no,no,L,Sebewa,no,no,P0916XR,19-May,SD,UAN,QP,50.0274,1.6964,-4.31E-03,196.8,217,,184
+NR-169,Soy,yes,2011,IN,SE,Jennings,SEPAC - G5,G5,39.04346949,-85.52707314,no,no,SiL,"Avonburg, Naab, Ryker-Muscatatuck ",no,no,LG2625,11-May,14-Jun,UAN,QP,24.6187,1.7521,-4.90E-03,178.7,181.2,,167
+NR-170,Soy,no,2011,IN,C,Madison,Shuter-CHD2,CHD2,,,no,no,"SiL, SiCL","Celina, Crosby, Mahalasville",no,no,Becks 6733 HXR,1-Jun,SD,UAN,PL,146.6,0.17354,,240,188.2,0.93,
+NR-171,Corn,no,2011,IN,C,Madison,Shuter-SSF1,SSF1,,,no,no,"SiCL, SiL","Brookston, Crosby",yes,no,Becks 6733 HXR,"5/13, 5/20",SD,UAN,PL,192.05,0.0366,,190,199,0.67,
+NR-172,Soy,yes,2011,IN,SW,Knox,SWPAC - 23,Fld 23,38.74521394,-87.48169541,yes,no,"LfS, fSL, SiCL","Ade, Lyles, Petrolia",no,no,LG2625,17-May,7-Jun,UAN,QP,81.5124,1.7006,-6.29E-03,135.2,196.5,,126
+NR-173,Soy,yes,2011,IN,WC,Tippecanoe,TPAC - MS5,MS5,40.26826214,-86.87759757,no,no,"SiCL, SiL","Throckmorton, Toronto-Millbrook, Drummer",no,no,P0916XR,20-May,10-Jun,UAN,QP,93.7872,1.2643,-5.20E-03,121.6,170.7,,111
+NR-174,Soy,no,2011,IN,C,Hendricks,Truax,,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 6187wx,14-May,SD,UAN,QP,-131.8,3.8587,-1.50E-02,128.6,116.4,,125
+NR-175,Soy,yes,2012,IN,WC,Tippecanoe,ACRE - 93,Fld 93,40.485245,-87.00806022,no,no,SiCL,Chalmers,no,no,P0916XR,19-Apr,Avg,UAN,PL,119.31,0.1306,,221,148.2,0.92,
+NR-176,Soy,no,2012,IL,IL,"Vermilion, IL",Acton,Home 1,,,no,no,"SiCL, L","Milford SiCL, La Hogue loam",no,no,,,SD,Urea,Q,-69.651,1.9071,-5.80E-03,164.4,87.1,0.37,155
+NR-177,Soy,no,2012,IN,C,Hamilton,Becks,"E1, E2",,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 6175 AMX,9-Apr,SD,UAN,Q,92.808,0.751934,-2.71E-03,138.6,144.9,0.95,118
+NR-178,Corn,no,2012,IN,C,Hamilton,Becks,A6,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Becks 6175 AMX,9-Apr,SD,UAN,QP,72.5047,1.0173,-3.00E-03,169.6,158.7,,151
+NR-179,Soy,no,2012,IN,SW,Gibson,Becks,,,,no,no,SiL,Ragsdale,no,no,Becks 6175 AMX,2-Apr,SD,UAN,QP,98.0742,1.1993,-3.00E-03,199.6,217.8,,181
+NR-180,Corn,no,2012,IN,SW,Gibson,Becks,,,,no,no,SiL,Ragsdale,no,no,Becks 6175 AMX,2-Apr,SD,UAN,QP,99.2021,0.9556,-1.64E-03,250,235.6,,257
+NR-181,Soy,no,2012,IL,IL,"Vermilion, IL",Dalenburg,,,,no,no,SiL,Fincastle,no,no,,,SD,Urea,QP,80.7619,0.705,-1.49E-03,236.3,164,,199
+NR-182,Soy,no,2012,IN,WC,Benton,Dimmich,78a,,,no,no,"SiCL, L","Selma, Crain",no,no,P0832AMXR,4-Apr,SD,NH3,NR,-,-,-,125,149,,
+NR-183,Soy,yes,2012,IN,EC,Randolph,DPAC - P,P,40.24032442,-85.14972925,no,no,"SiL, SiCL","Blount, Pewamo",no,no,P0916XR,25-Apr,Avg,UAN,QP,64.7031,0.4428,-9.40E-04,234.58,116.6,,176
+NR-184,Soy,no,2012,IN,NW,Pulaski,Fritz - Irrig,,,,yes,no,LfS,"Maume, Brems-Morocco",no,yes,Brodbeck 50SX13,28-Apr,SD,NH3,QP,-10.3448,2.3432,-7.83E-03,149.6,165,,142
+NR-185,Soy,no,2012,IN,NW,Pulaski,Fritz - Non-irrig,,,,yes,no,LfS,"Maumee, Brems-Morocco",no,no,Brodbeck 50SX13,28-Apr,SD,NH3,QP,76.7038,0.3842,-1.02E-03,188.1,112.8,,133
+NR-186,Soy,no,2012,IN,NC,Cass,Guy,Hinkle,,,no,no,"SiL, SiCL","Fincastle, Patton",no,no,Becks 6175 AMX,6-Apr,SD,NH3,QP,111.6,0.7552,-2.64E-03,143.1,165.6,,122
+NR-187,Corn,no,2012,IN,NW,Jasper,Kingma,Marks80,,,yes,no,LS,Watseka-Maumee,no,no,DK61-88,5-May,SD,NH3,QP,98.6937,0.3523,-8.20E-04,216.1,136.8,,146
+NR-188,Corn,no,2012,IN,NW,Jasper,Klemp - M.E.4,ME4,,,yes,no,LS,Watseka-Maumee,no,no,Becks 5354,19-Apr,SD,NH3,QP,96.9044,1.079,-2.51E-03,215.1,212.9,,193
+NR-189,Soy,yes,2012,IN,NE,Whitley,NEPAC - L5,L5,41.11445726,-85.44242263,no,no,"SiL, L, SL","Blount, Mermill+Haskins, Boyer+Rawson",no,no,P0916XR,26-Apr,Avg,UAN,QP,118,0.3652,-1.02E-03,178.4,150.6,,124
+NR-190,Soy,no,2012,IN,EC,Henry,Pickering,20-110,,,no,no,"SiL, SiCL","Crosby, Cyclone",yes,no,P1018AM1,19-Apr,SD,UAN,QP,41.9163,0.95,-0.00519,91.5,85.4,0.74,81
+NR-191,Soy,yes,2012,IN,NW,Porter,PPAC - A4,A4,41.45145997,-86.94347262,no,no,L,Sebewa,no,no,P0916XR,10-May,Avg,UAN,QP,111.9,1.1588,-3.42E-03,169.5,210.2,,153
+NR-192,Soy,yes,2012,IN,NW,Porter,PPAC - Dow,I3,,,no,no,L,Sebewa,no,no,P0916XR,15-May,sd,UAN,QP,153.6,0.9161,-3.14E-03,146,220.5,0.99,128
+NR-193,Soy,yes,2012,IN,NW,Porter,PPAC - J,J,41.44364322,-86.93587661,no,yes,Muck,"Edwards, Palm",no,no,P0916XR,,SD,UAN,NR,-,-,-,63,159,,63
+NR-194,Soy,yes,2012,IN,NW,Porter,PPAC - Koch,I6,,,no,no,"L, SL","Pinhook & Sebewa, Bourbon",no,no,P0916XR,11-May,plt,UAN,QP,156.9,0.7963,-2.26E-03,176,226.9,0.99,151
+NR-195,Soy,no,2012,IN,NW,Jasper,Rodibaugh,,,,no,no,"SL, L, L, CL","Papineau, Rensselaer, Rensselaer/Wolcott",no,no,Specialty 4640,20-Apr,SD,UAN,QP,170.1,0.4547,-1.08E-03,209.6,217.8,,159
+NR-196,Soy,yes,2012,IN,SE,Jennings,SEPAC - G8,G8,39.03978632,-85.53082824,no,no,SiL,"Nabb, Oldenburg, Ryker-Muscatuck",no,no,LG2625,19-Apr,Avg,UAN,QP,57.6448,0.6633,-1.81E-03,183.6,118.5,,152
+NR-197,Soy,no,2012,IN,SW,Vanderburgh,Steinkamp,EGR,,,no,no,SiCL,"Huntington, Lindside",no,no,P32B11,11-Apr,SD,NH3,QP,-100.8,3.1123,-1.14E-02,136.8,112.1,,132
+NR-198,Soy,no,2012,IN,WC,Warren,Stone,,,,no,no,"SiL, SiCL","Brenton+Rainsville-Williamstown+Tuscola+Proctor, Drummer",no,no,,,SD,Urea,CR,-,-,-,-,-,,
+NR-199,Soy,yes,2012,IN,WC,Tippecanoe,TPAC - ME,ME,40.27772494,-86.8632853,no,no,"SiL, SiCL","Lauramie, Drummer, Toronto-Millbrook",no,no,P0916XR,15-May,Avg,UAN,QP,80.6857,0.5,-6.32E-03,39.6,90.6,,31
+NR-200,Soy,yes,2013,IN,WC,Tippecanoe,ACRE - 92,Fld 92,40.48428211,-87.00799584,no,no,SiCL,Chalmers,no,no,P1221AMX,20-May,Avg,UAN,QP,73.2425,1.3993,-3.35E-03,208.9,219.4,,192
+NR-201,Soy,no,2013,IN,WC,Benton,Dimmich,74a,,,no,no,"SiCL,SiL, L","Selma, Gilboa, Crain",no,no,P0832AMX,5-May,SD,UAN,QP,161.2,0.4824,-8.20E-04,225,228.2,0.92,225
+NR-202,Soy,yes,2013,IN,EC,Randolph,DPAC - M2,M2,40.24589324,-85.14994383,no,no,"SiL, SiCL","Blount, Pewamo",no,no,P1221AMX,14-May,Avg,UAN,QP,-3.0701,1.6512,-3.49E-03,236.3,192,,220
+NR-203,Soy,no,2013,IN,C,Hendricks,Edmondson,,,,no,no,"SiL, SiCL","Miami, Brookston",no,no,DK 61-88,20-May,SD,UAN,PL,177.65,0.3689,,192,248.5,0.82,
+NR-204,Soy,no,2013,IN,NC,Cass,Guy,Maugans,,,no,no,SiL,Cyclone,no,no,Becks 5475 AMX,13-May,SD,NH3,QP,84.7773,0.9985,-2.03E-03,246,207.6,,218
+NR-205,Soy,no,2013,IN,NW,Jasper,Kingma,Kniman,,,yes,no,"S, LS","Watseka-Maumee, Zadog-Maumee",no,yes,DK61-16,3-May,SD,NH3,QP,-73.8202,2.2987,-4.36E-03,264,229.5,0.99,251
+NR-206,Corn,no,2013,IN,NW,Jasper,Klemp - M.E.4,ME4,,,yes,no,LS,Watseka-Maumee,no,no,Becks 6175 AMX,,SD,UAN,QP,-40.3694,1.968,-3.49E-03,276,236.9,,266
+NR-207,Soy,yes,2013,IN,NE,Whitley,NEPAC - L3,L3,41.11573437,-85.44235826,no,no,"L, SL","Haskins, Merrill, Rawson",no,no,P1221AMX,14-May,Avg,UAN,QP,26.5202,1.0074,-1.40E-03,270,196.5,,270
+NR-208,Soy,no,2013,IN,EC,Henry,Pickering,1-02Ws,,,no,no,SiL,Crosby,yes,no,Ch 211-99,22-May,SD,UAN,Q,183.84,0.1511,-0.0007,107.9,192,0.61,28
+NR-209,Soy,no,2013,IN,EC,Henry,Pickering,1-02Ws,,,no,no,SiCl,Cyclone,yes,no,Ch 211-99,22-May,SD,UAN,QP,197.1,0.4041,-0.00116,174.3,232.3,0.93,126
+NR-210,Soy,yes,2013,IN,NW,Porter,PPAC - C4,C4,41.45141172,-86.93883777,no,no,L,Sebewa,no,no,P1221AMX,7-May,Avg,UAN,QP,87.6316,1.0312,-1.99E-03,258.9,221.1,,231
+NR-211,Soy,yes,2013,IN,NW,Porter,PPAC - D south,Dsouth,,,no,no,L,Sebewa,no,no,,15-May,Plt,UAN,QP,155.1,0.5971,-1.52E-03,196.3,213.7,0.99,159
+NR-212,Soy,yes,2013,IN,NW,Porter,PPAC - G,G,,,no,yes,Muck,"Edwards, Palm",no,no,,,SD,UAN,QP,100.5,0.818,-1.75E-03,233.3,195.9,,202
+NR-213,Soy,yes,2013,IN,SE,Jennings,SEPAC - G5,G5,39.04346949,-85.52707314,no,no,SiL,"Avonburg, Naab, Ryker-Muscatatuck ",no,no,P1498HR,1-May,Avg,UAN,QP,61.3462,1.3479,-2.90E-03,232.2,217.9,,213
+NR-214,Soy,no,2013,IN,C,Shelby,Simpson,MS,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Ch 214-13,2-May,SD,UAN,PL,167.41,0.2674,,221,226.5,0.94,221
+NR-215,Corn,no,2013,IN,SW,Vanderburgh,Steinkamp,EGR,,,no,no,SiCL,"Huntington, Lindside",no,no,P32B16 white,29-May,SD,NH3,QP,128.6,1.0724,-0.00293,182.9,226.6,0.95,164
+NR-216,Soy,yes,2013,IN,SW,Knox,SWPAC - 23,Fld 23,38.74521394,-87.48169541,yes,no,"LfS, fSL, SiCL","Ade, Lyles, Petrolia",no,no,P1498HR,29-May,21-Jun,UAN,QP,83.2491,1.6937,-7.57E-03,111.9,178,,104
+NR-217,Soy,yes,2013,IN,WC,Tippecanoe,TPAC - MS5,MS5,40.26826214,-86.87759757,no,no,SiCl/SiL,"Throckmorton, Toronto-Millbrook, Drummer",no,no,P1221AMX,23-May,Avg,UAN,QP,118.5,1.2209,-3.51E-03,173.7,224.5,,158
+NR-218,Soy,yes,2014,IN,WC,Tippecanoe,ACRE - 93,Fld 93,40.485245,-87.00806022,no,no,SiCL,Chalmers,no,no,P1221AMXT,30-Apr,29-May,UAN,QP,94.4364,0.9665,-1.84E-03,262.4,221.2,0.99,232
+NR-219,Soy,no,2014,IN,WC,Benton,Dimmich,47a,,,no,no,"SiCL, SiL","Selma, Gilboa, Barce",no,no,P0945AMX,20-Apr,SD,UAN,QP,57.9446,2.3265,-7.33E-03,158.8,242.7,0.88,151
+NR-220,Soy,yes,2014,IN,EC,Randolph,DPAC - P,P,40.24032442,-85.14972925,no,no,"SiL, SiCL","Blount, Pewamo",no,no,P1221AMXT,24-May,24-Jun,UAN,QP,-26.0901,1.5408,-2.66E-03,270,197.3,0.99,269
+NR-221,Soy,yes,2014,IN,EC,Randolph,DPAC - P,P,40.24032442,-85.14972925,no,no,"SiL, SiCL","Blount, Pewamo",no,no,P1221AMXT,24-May,24-May,UAN,PL,4.3425,0.621,,270,172,0.98,270
+NR-222,Corn,no,2014,IN,NW,Pulaski,Fritz - Non-irrig,Fld 401,,,yes,no,LfS,Maumee,no,no,LG 2620 VT3 RIB,3-May,SD,NH3,QP,-7.6352,1.5308,-4.01E-03,191,138.6,0.6,177
+NR-223,Soy,no,2014,IN,NC,Cass,Guy,Fikes,,,no,no,SiL,Cyclone,no,no,Becks 5385A3,30-Apr,Avg,NH3,QP,136,0.7086,-1.80E-03,197,205.7,0.99,166
+NR-224,Corn,no,2014,IN,NW,Jasper,Kingma,Kniman,,,yes,no,"S, LS","Watseka-Maumee, Zadog-Maumee",no,yes,DK61-16,9-May,SD,NH3,QP,40.488,1.0157,-1.59E-03,287,201,0.99,284
+NR-225,Corn,no,2014,IN,NC,St. Joseph,Lichtenbarger,Gumz F,,,no,yes,Muck,Moston,no,no,Avg of 2,3-Jun,SD,UAN,NR,-,-,-,123,155,,123
+NR-226,Wheat,no,2014,MI,MI,Clinton MI,Motz,FMO,,,yes,no,SL,not known,no,yes,GL 4699,25-May,SD,UAN,QP,107.9,1.1002,-2.62E-03,210.5,223.7,0.97,189
+NR-227,Soy,yes,2014,IN,NE,Whitley,NEPAC - L5,L5,41.11445726,-85.44242263,no,no,"SiL, L, SL","Blount, Mermill+Haskins, Boyer+Rawson",no,no,P1221AMXT,22-May,Avg,UAN,QP,53.8285,0.913,-1.55E-03,268,187.2,0.99,258
+NR-228,Soy,no,2014,IN,EC,Henry,Pickering,Fld 1801,,,no,no,"SiL, SiCl","Celina, Cyclone",yes,no,DK 61-88,8-May,SD,UAN,QP,226,0.1057,-3.00E-04,160,235.2,0.78,-11
+NR-229,Soy,yes,2014,IN,NW,Porter,PPAC - A4,A4,41.45145997,-86.94347262,no,no,L,Sebewa,no,no,P1221AMXT,6-May,Avg,UAN,QP,77.7104,1.1106,-2.46E-03,225.3,202.8,0.99,203
+NR-230,Soy,yes,2014,IN,NW,Porter,PPAC - J,J,41.44364322,-86.93587661,no,yes,Muck,"Edwards, Palm",no,no,,,SD,UAN,NR,-,-,-,63,163,,63
+NR-231,Soy,yes,2014,IN,NW,La Porte,PPAC - M1,M1,,,yes,no,SL,Tracy,no,no,Becks 6175AMX,19-May,plt,UAN,QP,128.5,0.7908,-1.86E-03,212.8,212.6,0.99,182
+NR-232,Soy,yes,2014,IN,SE,Jennings,SEPAC - G8,G8,39.03978632,-85.53082824,no,no,SiL,"Nabb, Oldenburg, Ryker-Muscatuck",no,no,P1498AM,5-May,Avg,UAN,QP,75.36,1.2577,-2.78E-03,226.7,217.9,0.99,206
+NR-233,Soy,no,2014,IN,EC,Grant,Sieber,Childs,,,no,no,"SiCL, SiL","Pewamo, Blount",no,no,,,SD,UAN,QP,136.6,0.8015,-1.63E-03,245.7,235,0.91,211
+NR-234,Soy,no,2014,IN,C,Shelby,Simpson,B129,,,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Ch 214-13,6-May,SD,UAN,QP,-35.4197,2.3242,-5.16E-03,225.3,226,0.99,214
+NR-235,Soy,yes,2014,IN,SW,Knox,SWPAC - 20,Fld 20,38.74849405,-87.48193145,yes,no,"LfS, fSL","Ade, Lyles",no,no,P1498AM,8-May,29-May,UAN,QP,45.1104,2.4553,-0.00851,144.3,222.2,0.99,138
+NR-236,Soy,yes,2014,IN,WC,Tippecanoe,TPAC - ME,ME,40.27772494,-86.8632853,no,no,"SiL, SiCL","Lauramie, Drummer, Toronto-Millbrook",no,no,P1221AMXT,29-May,Avg,UAN,QP,111.6,0.9459,-2.96E-03,159.8,187.2,0.99,141
+NR-237,Soy,no,2014,IN,SW,Dubois,Whitsitt,Dow 2,,,no,no,SiL,Stendal,yes,no,P1477WHR,19-Jun,SD,UAN,PL,162.28,0.0645,-,165.5,173.4,0.81,86
+NR-238,Soy,no,2014,IN,WC,White,Wuethrich,Huber/Ward,,,yes,no,fSL,Gilford,no,yes,DK63-33,7-May,SD,UAN,PL,176.5,0.161,,238,214.8,0.83,238
+NR-239,Soy,no,2014,IN,WC,White,Wuethrich,Huber/Ward,,,yes,no,fSL,Seafield,no,yes,DK63-33,7-May,SD,UAN,PL,121.05785,0.347,,238,203.6,0.66,238
+NR-240,Soy,no,2014,IN,WC,White,Wuethrich,Huber/Ward,,,no,yes,Muck,Ackerman,no,yes,DK63-33,7-May,SD,UAN,CR,118.058,0.274,,238,183.3,0.34,238
+NR-241,Soy,yes,2015,IN,WC,Tippecanoe,ACRE - 92,Fld 92,40.48428211,-87.00799584,no,no,SiCL,Chalmers,no,no,P1257AMXT,29-May,12-Jun,UAN,QP,1.9943,1.5301,-3.03E-03,252.7,195.3,0.98,234
+NR-242,Soy,yes,2015,IN,EC,Randolph,DPAC - M2,M2,40.24589324,-85.14994383,no,no,"SiL, SiCL","Blount, Pewamo",no,no,P1257AMXT,22-May,5-Jul,UAN,Q,-36.49,1.372535714,-2.29E-03,272,169.2,0.99,275
+NR-243,Soy,no,2015,IN,NC,Cass,Guy,B&W Back,,,no,no,SiL,Fincastle,no,no,Becks 5939,3-May,SD,NH3,QP,91.2314,0.9512,-1.94E-03,245,208,0.71,216
+NR-244,Soy,no,2015,IN,NW,Jasper,Kingma,East Pt,41.23256788,-87.08940823,yes,no,LS,Zadog-Maumee,no,no,EB105,24-Apr,SD,NH3,CR,-1921.546412,21.48480103,-5.56E-02,193.3,155.3,0.93,192
+NR-245,Corn,no,2015,IN,NC,St. Joseph,Lichtenbarger,Gumz F,,,no,yes,Muck,Moston,no,no,Avg of 2,18-May,SD,UAN,NR,-,-,-,123,169,,123
+NR-246,Soy,no,2015,MI,MI,Clinton MI,Motz,T Benson…,,,yes,no,SL,Boyer,no,yes,GL 5283,1-May,SD,UAN,PL,251.8,0.0357,,230,260,0.57,137
+NR-247,Soy,yes,2015,IN,NE,Whitley,NEPAC - L3,L3,41.11573437,-85.44235826,no,no,"L, SL","Haskins, Merrill, Rawson",no,no,P1257AMXT,19-May,1-Jul,UAN,PL,54.03,0.5626,,270,200,0.97,270
+NR-248,Soy,no,2015,IN,EC,Henry,Pickering,701,,,no,no,"SiCL, SiL","Crosby, Miami",yes,no,DK 64-87,3-May,SD,UAN,Q,158.04,0.8419,-1.89E-03,223,251.9,0.99,193
+NR-249,Soy,yes,2015,IN,NW,Porter,PPAC - C4,C4,41.45141172,-86.93883777,no,no,L,Sebewa,no,no,P1257AMXT,29-Apr,12-Jun,UAN,QP,78.3539,1.3633,-3.21E-03,212.5,223.2,0.99,195
+NR-250,Soy,yes,2015,IN,NW,La Porte,PPAC - M2,M2,,,yes,no,SL,Tracy,no,no,P0987AMX,29-Apr,SD,AN,QP,90.9293,1.4877,-3.60E-03,206.5,244.5,0.98,191
+NR-251,Soy,yes,2015,IN,SE,Jennings,SEPAC - G5,G5,39.04346949,-85.52707314,no,no,SiL,"Avonburg, Naab, Ryker-Muscatatuck ",no,no,P1257AMXT,4-May,21-May,UAN,QP,64.9767,1.7577,-4.53E-03,193.8,235.4,0.98,182
+NR-252,Soy,yes,2015,IN,WC,Tippecanoe,TPAC - MS5,MS5,40.26826214,-86.87759757,no,no,SiCl/SiL,"Throckmorton, Toronto-Millbrook, Drummer",no,no,P1257AMXT,23-May,5-Aug,UAN,CR,115.1,0.5956,-1.25E-03,239,186.3,0.98,193
+NR-253,Soy,no,2015,IN,NC,Miami,Vincent,Home,,,no,no,SiCL,Pewamo,yes,no,Brod 54RA12,15-Apr,SD,NH3,NR,-,-,-,131,210,,131
+NR-254,Soy,no,2015,IN,NC,Miami,Vincent,Home,,,no,no,SiCL,Pewamo,yes,no,Brod 54RA14,15-Apr,SD,NH3,NR,-,-,-,91,221,,91
+NR-255,Soy,no,2015,IN,SW,Dubois/Pike,Whitsitt,RC6,,,no,no,SiL,"Stendal, Steff, Pekin",yes,no,A6580WBtRR,7-May,SD,UAN,QP,101,0.6533,-1.78E-03,183.7,161,0.94,152
+NR-256,Soy,no,2016,IN,NC,Cass,Guy,Fikes,40.674125,-86.166621,no,no,SiL,Cyclone,no,no,Becks 6158AM,27-Apr,SD,NH3,QP,97.3514,1.2042,-3.01E-03,200.4,218,0.98,181
+NR-257,Soy,no,2016,IN,NW,Jasper,Kingma,Kniman,,,yes,no,"S, LS","Watseka-Maumee, Zadog-Maumee",no,yes,DKC60-67,5-May,SD,NH3,NR,-,-,-,172,206,,172
+NR-258,Soy,no,2016,IN,WC,Benton,Dimmich,47a,,,no,no,"SiCL, SiL","Selma, Gilboa, Barce",no,no,P0987AMX,19-Apr,SD,UAN,QP,87.2435,1.157292979,-2.65E-03,218.1,213.4,0.94,197
+NR-259,Soy,yes,2016,IN,NW,Porter,PPAC - J,J,41.44364322,-86.93587661,no,yes,muck,"Edwards, Palm",no,no,P0589AMT,9-May,SD,UAN,NR,-,-,-,63,184,,63
+NR-260,Soy,no,2016,IN,NC,Miami,Vincent,Quad,,,no,no,"SiL, SiCL","Blount, Pewamo",no,no,Brod 54RA14,19-Apr,SD,NH3,QP,165.52,0.330966986,-0.000792406,208.8,200.1,0.99,138
+NR-261,Soy,no,2016,IN,NC,Miami,Vincent,Quad,,,no,no,"SiL, SiCL","Blount, Pewamo",yes,no,Brod 54RA14,19-Apr,SD,NH3,NR,-,-,-,95,210,,95
+NR-262,Corn,no,2016,IN,NC,St. Joseph,Lichtenbarger,Gumz C,,,no,yes,muck,Edwards,no,no,Avg of 2,25-May,SD,UAN,NR,-,-,-,123,176,,123
+NR-263,Soy,no,2017,IN,EC,Blackford,Aulbach,Bob/Aileen,40.40663652,-85.34423175,no,no,"SiL, SiCL","Blount, Glynwood, Pewamo",yes,no,??,16-May,SD,UAN,QP,57.3036,1.51439,-0.003516288,215.3,220.4,0.98,199
+NR-264,Oats,no,2017,IN,EC,Blackford,Aulbach,LindaStrohl,40.40663652,-85.33973424,no,no,"SiL, SiCL","Blount, Glynwood, Pewamo",yes,no,??,16-May,SD,UAN,PL,174.46,0.2374,,240,232.4,0.99,240
+NR-265,Soy,no,2017,IN,WC,Benton,Dimmich,Don North 74a,40.55212381,-87.35397996,no,no,"SiCL,SiL, L","Selma, Gilboa, Crain",no,no,P1197AMXT,21-Apr,SD,UAN,QP,14.6316,2.215,-0.00499,222.2,260.7,0.97,211
+NR-266,Corn,yes,2017,IN,EC,Randolph,DPAC,M1,40.24841543,-85.14998674,no,no,"SiL, SiCL","Blount, Pewamo",no,no,Becks 5829A4,26-Apr,SD,UAN,QP,-53.699,1.4332,-2.30E-03,280,164.1,0.99,287
+NR-267,Soy,no,2017,IN,SE,Shelby,Everhart,Joyce,39.65709089,-85.67797986,no,no,"SiCL, SiL","Brookston, Crosby",no,no,Agrigold 6499VT2,28-Apr,SD,NH3,CR,-,-,-,-,-,,
+NR-268,Soy,no,2017,IN,NW,Jasper,Kingma,East Pt,41.23256788,-87.08940823,yes,no,LS,Zadog-Maumee,no,yes,DKC60-69RIB,25-Apr,SD,NH3,PL,165.71,0.2053,,265,217.6,0.92,265
+NR-269,Soy,yes,2018,IN,WC,Tippecanoe,ACRE - 93,93,,,no,no,SiCL,Chalmers,no,no,Becks 5829A4,8-May,SD,UAN,Q,187.98,0.3846,-0.00092,209,228,0.96,148
+NR-270,Corn,yes,2018,IN,WC,Tippecanoe,ACRE - 94,94,,,no,no,SiCL,Chalmers,no,no,Becks 5829A4,8-May,SD,UAN,Q,139.94,0.62732,-1.41E-03,223,209.7,0.99,183
+NR-271,Soy,no,2018,IN,WC,Tippecanoe,Dimmich,Bertha Ditch,,,no,no,"SiL, SiCL, SiL","Selma, Gilboa, Barce",no,no,Avg of 2,30-Apr,SD,UAN,QP,59.785,1.50407,-3.27E-03,229,232,0.93,213
+NR-272,Wheat,no,2018,IN,NC,Miami,Vincent,Home,,,no,no,"SiCL, SiL","Pewamo, Blount",yes,no,NuTech 5FB 6313,27-Apr,SD,NH3,QP,74.75247,2.07672,-6.78E-03,153,234,0.99,145
+NR-273,Soy,no,2018,IN,NC,Miami,Vincent,Quad,,,no,no,"SiL, SiCL","Blount, Pewamo",yes,no,P1187AM1,27-Apr,SD,NH3,QP,242.6514366,0.28834024,-8.15E-04,177,268,0.93,108
