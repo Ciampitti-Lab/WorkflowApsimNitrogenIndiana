@@ -1,3 +1,5 @@
+![Protocol Diagram](assets/images/map_3regions.png)
+
 ## ⚙️ Workflow
 
 ### 🧩 Structure
