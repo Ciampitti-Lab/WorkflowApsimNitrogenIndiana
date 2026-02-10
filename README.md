@@ -44,10 +44,10 @@ workflow/
 ## 📦 Installation
 
 ### Prerequisites
-- docker
-- apsiminitiative/apsimng (docker image)
+- apsimxpy
 
 ### Steps
 
 - Import apsimxpy 
 - Clone Repository in the same folder than the apsimxpy module
+- Run scripts from bash or jupyter notebook
