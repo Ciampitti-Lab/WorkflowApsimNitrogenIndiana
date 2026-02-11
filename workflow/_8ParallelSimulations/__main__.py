@@ -12,8 +12,8 @@ geojson_file = glob.glob(os.path.join(folder, "*.geojson"))
 fields=gpd.read_file(geojson_file[0])
 
 
-nitrogen = np.random.uniform(0, 267.66, size=6)/ 0.892
-
+rng = np.random.default_rng(42) 
+nitrogen = [100, 125, 150, 175, 200, 225, 250, 275, 300]
 # Preproccesing
 soils=pd.read_csv("/workspace/soil/soils.csv")
 cols = ['SAND', 'CLAY', 'SILT', 'BD']
@@ -35,7 +35,7 @@ elif region=='C':
 elif region=='NE':
     sample_fields=fields[fields['region']=='NE']
     
-# for id,row in sample_fields[sample_fields['id_cell']>=230].iterrows():
+# for id,row in sample_fields[sample_fields['id_cell']>=1167].iterrows():
 for id,row in sample_fields.iterrows():
     print(row['id_cell'])
     if row['region']=='C':
@@ -46,7 +46,7 @@ for id,row in sample_fields.iterrows():
         apsim_file='CornSoybean_NE'
     
     if row['id_within_cell']%2==0:
-        for year in list(range(2006,2023,2)):
+        for year in list(range(2006,2024,2)):
             
             init_obg=apsimxpy.Initialize(apsim_folder_input='/Users/jorgeandresjolahernandez/Desktop/ApsimxpyModule',apsim_file_input= apsim_file)
 
@@ -77,7 +77,7 @@ for id,row in sample_fields.iterrows():
                 # Counting simulations
                 count+=1
     else:
-        for year in list(range(2006,2023,2)):
+        for year in list(range(2007,2024,2)):
             init_obg=apsimxpy.Initialize(apsim_folder_input='/Users/jorgeandresjolahernandez/Desktop/ApsimxpyModule',apsim_file_input= apsim_file)
 
             clock1=apsimxpy.Clock(init_obj=init_obg)
@@ -110,7 +110,7 @@ for id,row in sample_fields.iterrows():
 # Running Parallel Simulations
 def single_simulation(row):  
     if row['id_within_cell']%2==0:
-        for year in list(range(2006,2010,2)):  
+        for year in list(range(2006,2024,2)):  
             for n_rate in nitrogen:
                 if row['region']=='C':
                     apsim_file=f'CornSoybean_C_{row['id_cell']}_{row['id_within_cell']}_N{n_rate}_Y{year}'
@@ -138,7 +138,7 @@ def single_simulation(row):
                 results.to_csv(f'/workspace/workflow/_8ParallelSimulations/apsim_files/report_{row['id_cell']}_{row['id_within_cell']}_N{n_rate}_Y{year}.csv')
                 print("Simulations Finished for task :",row['id_cell'],row['id_within_cell'],'N:', n_rate,'Year',year)
     else:
-        for year in list(range(2007,2010,2)):  
+        for year in list(range(2007,2024,2)):  
             for n_rate in nitrogen:
                 if row['region']=='C':
                     apsim_file=f'CornSoybean_C_{row['id_cell']}_{row['id_within_cell']}_N{n_rate}_Y{year}'
@@ -168,7 +168,7 @@ def single_simulation(row):
 
 
 
-# tasks = [row.to_dict() for _, row in sample_fields[sample_fields['id_cell']>=230].iterrows()] 
+# tasks = [row.to_dict() for _, row in sample_fields[sample_fields['id_cell']>=1167].iterrows()] 
 
 tasks = [row.to_dict() for _, row in sample_fields.iterrows()] 
 
@@ -181,7 +181,7 @@ lis_results=[]
 
 for id,row in sample_fields.iterrows():
     if row['id_within_cell']%2==0:
-        for year in list(range(2006,2010,2)):  
+        for year in list(range(2006,2024,2)):  
             for n_rate in nitrogen:
                 res_file=f"/workspace/workflow/_8ParallelSimulations/apsim_files/report_{row['id_cell']}_{row['id_within_cell']}_N{n_rate}_Y{year}.csv"
                 
@@ -196,7 +196,7 @@ for id,row in sample_fields.iterrows():
                 results = results[['date','yield_ton_ha','nitro_kg_ha','id_cell','id_within_cell','maize_yield_kg_ha','soybean_yield_kg_ha','leachno3']]
                 lis_results.append(results)
     else:
-        for year in list(range(2007,2010,2)):  
+        for year in list(range(2007,2024,2)):  
             for n_rate in nitrogen:
                 res_file=f"/workspace/workflow/_8ParallelSimulations/apsim_files/report_{row['id_cell']}_{row['id_within_cell']}_N{n_rate}_Y{year}.csv"
                 
