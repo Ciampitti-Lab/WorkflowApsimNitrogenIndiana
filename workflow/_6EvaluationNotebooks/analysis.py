@@ -110,7 +110,7 @@ class results_config:
     def results_prepare(self):
         self.results['year'] = self.results['date'].dt.year
         # Selecting the best yield per year
-        idx = self.results.groupby(['id_cell', 'nitro_kg_ha','year'])['yield_ton_ha'].idxmax()
+        idx = self.results.groupby(['id_cell','id_within_cell', 'nitro_kg_ha','year'])['yield_ton_ha'].idxmax()
         self.results = self.results.loc[idx].reset_index(drop=True)
         ## Selecting important variables
         self.results = self.results[['id_cell','id_within_cell','nitro_kg_ha','yield_ton_ha','year','maize_yield_kg_ha']]
@@ -119,11 +119,11 @@ class results_config:
         
         
         # Only GTD for region C before 2015, and no data for 2009
-        mask_c= (results_region['region'] == 'C') & (results_region['year'] <= 2014) & (results_region['year']!=2009)
+        mask_c= (results_region['region'] == 'C') & (~results_region['year'].isin([2009,2015,2016,2017,2018,2019,2020,2021,2022,2023]))
         # No GTD for 2019 and 2020 for region NC 
-        mask_nc= (results_region['region'] == 'NC') & (~results_region['year'].isin([2019, 2020]))
+        mask_nc= (results_region['region'] == 'NC') & (~results_region['year'].isin([2019]))
         # No GTD for 2016, 2017, 2018, 2019 and 2020 for region NE 
-        mask_ne= (results_region['region'] == 'NE') & (~results_region['year'].isin([2016,2017,2018,2019, 2020]))
+        mask_ne= (results_region['region'] == 'NE') & (~results_region['year'].isin([2016,2017,2018,2023]))
         
         results_c= results_region[mask_c]
         results_nc= results_region[mask_nc]
@@ -141,33 +141,21 @@ class results_config:
     
     def boxplot_nrate_config(self):
         ## SPLITING BY RANGES OF NITROGEN RATES
-        sim0=self.results_all_region[(self.results_all_region['nitro_kg_ha']==0)]
-        sim100=self.results_all_region[(self.results_all_region['nitro_kg_ha']==100)]
-        sim200=self.results_all_region[(self.results_all_region['nitro_kg_ha']==200)]
-        sim300=self.results_all_region[(self.results_all_region['nitro_kg_ha']==300)]
-        
-        truth0=self.gtd[self.gtd['nitro_kg_ha']==0]
-        truth100=self.gtd[self.gtd['nitro_kg_ha']==100]
-        truth200=self.gtd[self.gtd['nitro_kg_ha']==200]
-        truth300=self.gtd[self.gtd['nitro_kg_ha']==300]
+        sim=self.results_all_region
+        truth=self.gtd
         
         def prep_data(real, sim, rate):
             real_df = real.copy()
             real_df['source'] = 'Ground Truth'
-            real_df['rate'] = f'{rate} KgN/Ha'
             
             sim_df = sim.copy()
             sim_df['source'] = 'Simulated'
-            sim_df['rate'] = f'{rate} KgN/Ha'
             
             return pd.concat([real_df, sim_df], axis=0)
 
         # Build one single dataframe with all rates
         boxplot_data = pd.concat([
-            prep_data(truth0,   sim0,   0),
-            prep_data(truth100, sim100, 100),
-            prep_data(truth200, sim200, 200),
-            prep_data(truth300, sim300, 300)
+            prep_data(truth, sim, 300)
         ])
         return boxplot_data
     #################################################################################################################################################
@@ -223,7 +211,7 @@ class results_config:
     def aonr_calculate(self):
         # AONR Simulations
         sim=self.results_all_region
-        idx_max_yield_sim=sim.groupby(['id_cell','id_within_cell','year'])['yield_ton_ha'].idxmax() # The dataframeis sorteg so it chooses the minimun rate that reaches the maximum yield.
+        idx_max_yield_sim=sim.groupby(['id_cell','id_within_cell','year'])['yield_ton_ha'].idxmax() # The dataframe is sorted so it chooses the minimun rate that reaches the maximum yield.
         max_yield_df_sim = sim.loc[idx_max_yield_sim, ['id_cell','id_within_cell','year','region', 'nitro_kg_ha']]
         
         ## Counting all the aonrs per regions and nitrogen rate
