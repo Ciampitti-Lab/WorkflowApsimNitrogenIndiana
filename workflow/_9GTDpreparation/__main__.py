@@ -34,9 +34,10 @@ region3_map = {
 #########################################################################################################################
 
 # Nitrogen dosis
-nitro_gtd1= np.random.uniform(89.2, 267.6, size=200)
-# nitro_gtd1 = np.array([ 89.2, 111.5, 178.4, 200.7, 223.0, 245.3, 267.6])
-nitro_gtd2 = nitro_gtd1 / 0.892
+nitro_gtd2 = np.array([100, 125, 150, 175, 200, 225, 250, 275, 300])
+
+nitro_gtd1= nitro_gtd2 * 0.892
+nitro_gtd2 = nitro_gtd2.astype('int')
 
 gtd1=pd.read_csv("/workspace/workflow/_9GTDpreparation/MasterDbase_NR_Dbase_forRstudio_0504.csv",encoding="latin",names=['id','prev_crop','pu','year','state','crd','county','location','fld','lat','long','sandy','muck','soil_texture','soil_assoc','manure','irrig','hybrid','plt_date','ntiming','nsource','model','a','b','c','aonr','opt_yield','rsq','eonr'])
 
