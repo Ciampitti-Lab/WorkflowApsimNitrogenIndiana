@@ -35,7 +35,7 @@ def compute_aic(y_true, y_pred, k):
 
 def fit_linear_plateau(group_df, y_var, x_var="rtotn_kgha", min_points=5):
     # Unpack group info
-    field = group_df["FieldID"].iloc[0]
+    field = group_df["id"].iloc[0]
 
     data_df = group_df[[x_var, y_var]].dropna().copy()
     if len(group_df) < min_points:
@@ -121,9 +121,8 @@ def fit_linear_plateau(group_df, y_var, x_var="rtotn_kgha", min_points=5):
                 # + theme_ff()
             )
 
-            display(g)
-            file_path = f"/workspace/workflow/_9GTDpreparation/figure.png"
-            g.save(file_path, dpi=300)
+            # display(g)
+
 
         # Predictions
         y_pred = linear_plateau(x, *popt)
@@ -159,3 +158,142 @@ def fit_linear_plateau(group_df, y_var, x_var="rtotn_kgha", min_points=5):
             "aic": np.nan,
         }
 
+def initial_guess_from_polyfit(x, y):
+    """Get p0 from quadratic polyfit, forcing b2 negative."""
+    coeffs = np.polyfit(x, y, 2)
+    b2_init, b1_init, b0_init = coeffs
+    # Ensure downward curve
+    # if b2_init >= 0:
+    #     b2_init = -0.001
+    return [b0_init, b1_init, b2_init]
+
+def quad_plateau(x, b0, b1, b2):
+    x_break = -b1 / (2 * b2)
+    y = np.where(
+        x < x_break, b0 + b1 * x + b2 * x**2, b0 + b1 * x_break + b2 * x_break**2
+    )
+    return y
+
+def fit_quadratic_plateau(group_df, y_var, x_var="rtotn_kgha", min_points=5):
+    # Unpack group info
+    field = group_df["id"].iloc[0]
+
+    data_df = group_df[[x_var, y_var]].dropna().copy()
+    if len(group_df) >= min_points:
+        x = pd.to_numeric(data_df[x_var]).values
+        y = pd.to_numeric(data_df[y_var]).values
+
+        # Initial guesses from quadratic fit
+        p0 = initial_guess_from_polyfit(x, y)
+
+        # Constrain b2 to be negative (b0, b1, b2)
+        lower_bounds = [-np.inf, -np.inf, -np.inf]
+        upper_bounds = [np.inf, np.inf, np.inf]  # b2 <= 0
+
+        n_rate = 260
+        p0[0] + p0[1] * n_rate + p0[2] * (n_rate**2)
+
+        try:
+            popt, _ = curve_fit(
+                quad_plateau,
+                x,
+                y,
+                p0=p0,
+                bounds=(lower_bounds, upper_bounds),
+                maxfev=10000,
+            )
+            b0, b1, b2 = popt
+            x_break = -b1 / (2 * b2)
+
+            # Ensure break point is within observed x range
+            if (x_break < np.min(x)) or (x_break > np.max(x)):
+                # raise RuntimeError("x_break outside range")
+                warnings.warn(f"x_break ({x_break:.2f}) outside observed range.")
+
+            y_plateau = b0 + b1 * x_break + b2 * x_break**2
+
+            if display_graphs:
+                # Generate a smooth x grid for plotting
+                x_grid = np.linspace(data_df[x_var].min(), data_df[x_var].max(), 20)
+
+                # Quadratic from initial guess
+                b0_init, b1_init, b2_init = p0
+                y_quad_init = b0_init + b1_init * x_grid + b2_init * (x_grid**2)
+                fit_init_df = pd.DataFrame({x_var: x_grid, y_var: y_quad_init})
+                fit_init_df["source"] = "Initial quadratic"
+
+                # Quadratic plateau from final fit (only if valid)
+                if not np.isnan(b0):
+                    y_plateau_fit = quad_plateau(x_grid, b0, b1, b2)
+                    fit_final_df = pd.DataFrame({x_var: x_grid, y_var: y_plateau_fit})
+                    fit_final_df["source"] = "Final plateau"
+                else:
+                    fit_final_df = pd.DataFrame(columns=[x_var, y_var, "source"])
+
+                # Observed data
+                data_df["source"] = "Observed"
+
+                # Combine all for plotting
+                plot_df = pd.concat(
+                    [data_df, fit_init_df, fit_final_df], ignore_index=True
+                )
+
+                g = (
+                    ggplot(
+                        plot_df,
+                        aes(x=x_var, y=y_var, color="source", linetype="source"),
+                    )
+                    + geom_point(data=data_df)
+                    + geom_line(data=fit_init_df)
+                    + geom_line(data=fit_final_df)
+                    + ggtitle(f"{y_var} {field}")
+                    # + theme_ff()
+                )
+
+                # display(g)
+
+            # Predictions
+            y_pred = quad_plateau(x, *popt)
+            r2, rmse = calc_r2_rmse(y, y_pred)
+            residuals = y - y_pred
+            ss_res = np.sum(residuals**2)
+            ss_tot = np.sum((y - np.mean(y)) ** 2)
+            r2 = 1 - ss_res / ss_tot if ss_tot > 0 else np.nan
+            rmse = np.sqrt(np.mean(residuals**2))
+
+            # AIC (k = 3 parameters: b0, b1, b2)
+            aic = compute_aic(y, y_pred, k=3)
+
+            return {
+                "b0": b0,
+                "b1": b1,
+                "b2": b2,
+                "x_break": x_break,
+                "y_plateau": y_plateau,
+                "r2": r2,
+                "rmse": rmse,
+                "aic": aic,
+            }
+
+        except RuntimeError:
+            return {
+                "b0": np.nan,
+                "b1": np.nan,
+                "b2": np.nan,
+                "x_break": np.nan,
+                "y_plateau": np.nan,
+                "r2": np.nan,
+                "rmse": np.nan,
+                "aic": np.nan,
+            }
+    else:
+        return {
+            "b0": np.nan,
+            "b1": np.nan,
+            "b2": np.nan,
+            "x_break": np.nan,
+            "y_plateau": np.nan,
+            "r2": np.nan,
+            "rmse": np.nan,
+            "aic": np.nan,
+        }
