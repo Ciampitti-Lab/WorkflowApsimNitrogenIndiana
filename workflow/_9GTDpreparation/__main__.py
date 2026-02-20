@@ -32,15 +32,12 @@ region3_map = {
 #########################################################################################################################
 #                                   MasterDbase_NR_Dbase_forRstudio_0504.csv                                            #
 #########################################################################################################################
-
-# Nitrogen dosis
-nitro_gtd2 = np.array([100, 125, 150, 175, 200, 225, 250, 275, 300])
-
-nitro_gtd1= nitro_gtd2 * 0.892
-nitro_gtd2 = nitro_gtd2.astype('int')
+# Nitrogen dosis (Kg)
+nitro_gtd2= np.random.uniform(100, 300, size=200)
+#nitro_gtd1 = np.array([ 89.2, 111.5, 178.4, 200.7, 223.0, 245.3, 267.6])
+nitro_gtd1 = nitro_gtd2 / 0.892
 
 gtd1=pd.read_csv("/workspace/workflow/_9GTDpreparation/MasterDbase_NR_Dbase_forRstudio_0504.csv",encoding="latin",names=['id','prev_crop','pu','year','state','crd','county','location','fld','lat','long','sandy','muck','soil_texture','soil_assoc','manure','irrig','hybrid','plt_date','ntiming','nsource','model','a','b','c','aonr','opt_yield','rsq','eonr'])
-
 # Filtering rows
 gtd1 = gtd1[gtd1['manure']=='no'] # No Manure
 gtd1 = gtd1[gtd1['irrig']=='no'] # No Irrigation
@@ -54,13 +51,13 @@ gtd1.loc[mask_noparam, 'a'] = gtd1['opt_yield']
 gtd1.loc[mask_noparam, 'b'] = 0
 gtd1.loc[mask_noparam]
 
-gtd1[['a','b','c','aonr']]=gtd1[['a','b','c','aonr']].astype(float)
+gtd1[['a','b','c','aonr','opt_yield']]=gtd1[['a','b','c','aonr','opt_yield']].astype(float)
 columns_to_check=['a']
 gtd1.dropna(subset=columns_to_check,inplace=True)
 gtd1.reset_index(drop=True, inplace=True)
 
 # Selecting Columns
-gtd1=gtd1[['id','year','crd','county','a','b','c','aonr']]
+gtd1=gtd1[['id','year','crd','county','a','b','c','aonr','opt_yield']]
 
 # Setting all nitrogen dosis for each trial
 gtd1 = (
@@ -72,9 +69,7 @@ gtd1 = (
     )
     .drop(columns='key')
 )
-# from lb to kilograms
-gtd1['nkg_ha'] = (gtd1['rate'] / 0.892).astype(int)
-gtd1['aonr_kg_ha'] = (gtd1['aonr'] / 0.892).astype(int)
+
 
 a = gtd1['a'].astype(float)
 b = gtd1['b'].astype(float)
@@ -87,9 +82,13 @@ gtd1['effective_r'] = gtd1[['rate', 'aonr']].min(axis=1)
 lin_val  = a + (b * gtd1['effective_r'])
 quad_val = a + (b * gtd1['effective_r']) - (c * gtd1['effective_r']**2)
 
-
 gtd1['yield_bush'] = np.where(c.isna(), lin_val, quad_val)
 
+# from lb to kilograms
+gtd1['nkg_ha'] = (gtd1['rate'] * 0.892).astype(int)
+gtd1['aonr_kg_ha'] = (gtd1['aonr'] * 0.892).astype(int)
+
+# From bush to ton
 gtd1['yield_ton'] = (gtd1['yield_bush'] * 60 * 1.12085) / 1000
 
 # Static column
@@ -132,7 +131,7 @@ gtd2_filtered=gtd2[['year','id','rtotn_kgha','ry15_mtha','county','year']]
 
 # Here I just rounded the decimals and then I grouped by nrate to avoid repeated nrates
 gtd2_filtered['rtotn_kgha'] = gtd2_filtered['rtotn_kgha'].div(10).astype('int')*10
-gtd2_ind_trials = gtd2_filtered.groupby(['rtotn_kgha','id'],as_index=False)['ry15_mtha'].mean()
+gtd2_indiv_trials = gtd2_filtered.groupby(['rtotn_kgha','id'],as_index=False)['ry15_mtha'].mean()
 
 # Selecting the best curve that fit each field
 def fitting_curves(group):
@@ -151,12 +150,10 @@ def fitting_curves(group):
         'model_type': 'quad' if is_quad else 'lin'
     })
     
-trial_results = gtd2_ind_trials.groupby('id').apply(fitting_curves, include_groups=True).reset_index()
-max_rates = gtd2_ind_trials.groupby('id')['rtotn_kgha'].max().rename('max_rate')
-trial_results = trial_results.merge(max_rates, on='id')
-
-
-
+trial_results = gtd2_indiv_trials.groupby('id').apply(fitting_curves, include_groups=True).reset_index()
+max_rates = gtd2_indiv_trials.groupby('id')['rtotn_kgha'].max().rename('max_rate')
+min_rates = gtd2_indiv_trials.groupby('id')['rtotn_kgha'].min().rename('min_rate')
+trial_results = trial_results.merge(max_rates, on='id').merge(min_rates, on='id')
 
 # Getting yield for each rate
 gtd2_curves = (
@@ -174,8 +171,9 @@ b = gtd2_curves['b'].astype(float)
 c = gtd2_curves['c'].abs()
 r = gtd2_curves['rate'].astype(float)
 
-# Capped to max. N rate in trial
-gtd2_curves['effective_r'] = gtd2_curves[['rate', 'max_rate', 'x_break']].min(axis=1)
+# Capped to max. N and min. N  rate in trial
+gtd2_curves['effective_r']=np.where(gtd2_curves['x_break']<=gtd2_curves['min_rate'],
+                                    gtd2_curves['min_rate'],gtd2_curves[['rate', 'max_rate', 'x_break']].min(axis=1))
 
 
 lin_val  = a + (b * gtd2_curves['effective_r'])
@@ -192,7 +190,9 @@ gtd2_curves['county']=gtd2_curves['county'].map(county_map)
 
 gtd2_curves["region"] = gtd2_curves["county"].map(region3_map)
 
-gtd2_curves['aonr']=np.minimum(gtd2_curves['x_break'],gtd2_curves['max_rate']).astype(int)
+gtd2_curves['aonr']=np.where(gtd2_curves['x_break']<=gtd2_curves['min_rate'],
+                            gtd2_curves['min_rate'],gtd2_curves[['max_rate', 'x_break']].min(axis=1)).astype(int)
+
 gtd2_curves['yield_ton']=np.where(gtd2_curves['yield_ton']<0,0,gtd2_curves['yield_ton'])
 gtd2_curves['rate']=gtd2_curves['rate'].astype(int)
 gtd2_curves['dbase'] = 'GTD2'
